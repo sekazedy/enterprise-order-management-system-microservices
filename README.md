@@ -2,9 +2,11 @@
 
 Microservices project with:
 
-- Order Service (Spring Boot + PostgreSQL + RabbitMQ)
-- Notification Service (Spring Boot + RabbitMQ)
+- Order Service (Spring Boot + PostgreSQL + RabbitMQ) - Spring Boot microservice with Order management logic
+- Notification Service (Spring Boot + RabbitMQ) - Spring Boot microservice listening to events
 - Event-driven architecture
+
+Original monolith lives here: https://github.com/sekazedy/enterprise-order-management-system
 
 ## Setup
 
